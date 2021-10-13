@@ -1,26 +1,195 @@
 * {
-    margin: 0;
+    margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     /* background-color:rgb(235, 235, 235); */
-    border: 1px solid blue;
-    margin: 0 10%;
+    /* border: 1px solid blue; */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 header {
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    text-align: center;
 }
 
-#colors {
-    border: 1px solid grey;
+/* Dealing with the color section
+1 selector for the entire section
+1 selector for the colors samples
+1 selector for each color */
+
+section {
+    /* border: 1px solid grey; */
+    margin: 20px 0;
+    padding: 20px 20px;
+    background-color:rgb(245, 245, 245);
+    border-radius: 20px;
 }
 
-#fonts {
-    border: 1px solid grey;
+section div {
+    margin: 0 auto;
 }
 
-#texts {
-    border: 1px solid grey;
+.color-sample{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    color: white;
+}
+
+.color-sample p {
+    visibility: hidden;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.color-sample:hover > p { 
+    visibility:visible;
+}
+
+#ivory {
+    background-color: ivory;
+    color: black;
+}
+
+#yellow {
+    background-color: yellow;
+    color: black;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#tomato {
+    background-color: tomato;
+}
+
+#red {
+    background-color: red;
+}
+
+#maroon {
+    background-color: maroon;
+    color: white;
+}
+
+#lavender {
+    background-color: lavender;
+    color: black;
+}
+
+#pink {
+    background-color: pink;
+}
+
+#deeppink {
+    background-color: deeppink;
+}
+
+#plum {
+    background-color: plum;
+}
+
+#violet {
+    background-color: violet;
+}
+
+#fuchsia {
+    background-color: fuchsia;
+}
+
+#purple {
+    background-color: purple;
+    color: white;
+}
+
+#indigo {
+    background-color: indigo;
+    color: white;
+}
+
+#lime {
+    background-color: lime;
+    color: black;
+}
+
+#green {
+    background-color: green;
+}
+
+#olive {
+    background-color: olive;
+}
+
+#aqua {
+    background-color: aqua;
+    color: black;
+}
+
+#skyblue {
+    background-color: skyblue;
+}
+
+#teal {
+    background-color: teal;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+}
+
+#navy {
+    background-color: navy;
+    color: white;
+}
+
+#white {
+    background-color: white;
+    color: black;
+}
+
+#silver {
+    background-color: silver;
+}
+
+#gray {
+    background-color: gray;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#wheat {
+    background-color: wheat;
+    color: black;
+}
+
+#tan {
+    background-color: tan;
+}
+
+#chocolate {
+    background-color: chocolate;
+    color: white;
+}
+
+#saddlebrown {
+    background-color: saddlebrown;
+    color: white;
 }
