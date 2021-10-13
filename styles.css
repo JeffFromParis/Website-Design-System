@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color:rgb(235, 235, 235); */
+    border: 1px solid blue;
+    margin: 0 10%;
+}
+
+header {
+    border: 1px solid red;
+}
+
+#colors {
+    border: 1px solid grey;
+}
+
+#fonts {
+    border: 1px solid grey;
+}
+
+#texts {
+    border: 1px solid grey;
+}
