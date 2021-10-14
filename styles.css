@@ -9,17 +9,18 @@ body {
     /* border: 1px solid blue; */
     max-width: 1000px;
     margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 header {
     /* border: 1px solid red; */
     text-align: center;
+    padding: 20px;
 }
 
-/* Dealing with the color section
-1 selector for the entire section
-1 selector for the colors samples
-1 selector for each color */
+header h1 {
+    font-size: 60px;
+}
 
 section {
     /* border: 1px solid grey; */
@@ -32,6 +33,10 @@ section {
 section div {
     margin: 0 auto;
 }
+
+/**********************************************************************
+ Dealing with the color section
+ **********************************************************************/
 
 .color-sample{
     display: inline-block;
@@ -193,3 +198,78 @@ section div {
     background-color: saddlebrown;
     color: white;
 }
+
+/**********************************************************************
+ Dealing with the font section
+ **********************************************************************/
+.font-sample{
+    display: inline-block;
+    background-color: white;
+    width: 455px;
+    height: 180px;
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.font-sample:hover { 
+    border: 1px solid blue;
+}
+
+.font-sample h3 {
+    text-decoration: underline;
+    color: black;
+}
+
+.font-sample h3 a{
+    color: black;
+}
+
+ .italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+ #arvo{
+     font-family: "Arvo";
+ }
+
+ #playfair{
+    font-family: "Playfair Display";
+}
+
+#merriweather{
+    font-family: "Merriweather";
+}
+
+#titillium{
+    font-family: "Titillium Web";
+}
+
+#alegreya{
+    font-family: "Alegreya";
+}
+
+#open{
+    font-family: "Open Sans";
+}
+
+#roboto{
+    font-family: "Roboto";
+}
+
+#mulish{
+    font-family: "Mulish";
+}
+
+#libre{
+    font-family: "Libre Franklin";
+}
+
+ /**********************************************************************
+ Dealing with the text section
+ **********************************************************************/
