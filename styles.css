@@ -34,6 +34,10 @@ section div {
     margin: 0 auto;
 }
 
+section h1 {
+    font-size: 32px;
+}
+
 /**********************************************************************
  Dealing with the color section
  **********************************************************************/
@@ -273,3 +277,31 @@ section div {
  /**********************************************************************
  Dealing with the text section
  **********************************************************************/
+ .text-sample{
+    display: inline-block;
+    background-color: white;
+    width: 296px;
+    height: 100px;
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+    vertical-align: top;
+    position: relative;
+}
+
+.text-sample:hover { 
+    border: 1px solid blue;
+}
+
+.style-details {
+    visibility: hidden;
+    height: 30px;
+    padding-top: 10px;
+    position: absolute;
+    bottom:20px;
+
+}
+
+.text-sample:hover > .style-details { 
+    visibility:visible;
+}
