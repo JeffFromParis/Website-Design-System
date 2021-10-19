@@ -8,3 +8,8 @@ In this project, I’ll be building my own basic design system for a website. In
 
 ## Technology
 Written in HTML5 CSS3
+
+## a few notes
+The site is divided into 3 sections: colors, fonts and styles.
+- Hover a color to reveal its name and its rgb and hsl values.
+- Hovering a font or a style will simply make a border appear for that style.
